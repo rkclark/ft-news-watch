@@ -13,7 +13,7 @@ describe('headlinesAPI', () => {
             .get('/headlines')
             .end((err, res) => {
                 expect(res.statusCode).to.equal(200);
-                expect(res.body).to.be.a('object');
+                expect(res.type).to.equal('application/json');
                 expect(res.body.query).to.be.a('object');
                 expect(res.body.results).to.be.a('array');
               done();
