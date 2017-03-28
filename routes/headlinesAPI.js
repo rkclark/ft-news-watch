@@ -1,6 +1,6 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 const FT_API_KEY = process.env.FT_API_KEY;
 
 const getAllQuery = {
