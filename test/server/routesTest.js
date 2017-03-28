@@ -5,9 +5,23 @@ import server from '../../src/app.js';
 
 chai.use(chaiHttp);
 
-describe('headlinesAPI', () => {
+describe('Routes', () => {
 
-  describe('GET /headlinesAPI', () => {
+  describe('GET /', () => {
+
+      it('Returns an html document', (done) => {
+        chai.request(server)
+            .get('/')
+            .end((err, res) => {
+                expect(res.statusCode).to.equal(200);
+                expect(res.type).to.equal('text/html');
+              done();
+            });
+      });
+  });
+
+  describe('GET /headlines', () => {
+
       it('it should a JSON object containing query object and results array', (done) => {
         chai.request(server)
             .get('/headlines')
