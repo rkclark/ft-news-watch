@@ -5,9 +5,11 @@
     "parserOptions": {
         "sourceType": "module"
     },
+    "plugins": ["webdriverio"],
     "env": {
         "es6": true,
         "browser": true,
+        "webdriverio/wdio": true,
         "mocha": true
     },
     "rules": {
