@@ -7,7 +7,7 @@ chai.use(chaiHttp);
 
 describe('headlinesAPI', () => {
 
-  describe('/GET headlinesAPI', () => {
+  describe('GET /headlinesAPI', () => {
       it('it should a JSON object containing query object and results array', (done) => {
         chai.request(server)
             .get('/headlines')
