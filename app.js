@@ -1,3 +1,4 @@
+require('dotenv').config()
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -6,6 +7,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
+var headlinesAPI = require('./routes/headlinesAPI')
 
 var app = express();
 
@@ -27,6 +29,7 @@ app.use(require('node-sass-middleware')({
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(headlinesAPI)
 app.use('/', index);
 
 // catch 404 and forward to error handler
