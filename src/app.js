@@ -5,15 +5,33 @@ import path from 'path';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
-
+import hbs from 'hbs';
+import fs from 'fs';
 import index from './routes/index';
 import headlinesAPI from './routes/headlinesAPI';
 
 const app = express();
 
 // view engine setup
+
+const partialsDir = __dirname + '/views/partials'; // eslint-disable-line
+
+const filenames = fs.readdirSync(partialsDir);
+
+filenames.forEach((filename) => {
+  const matches = /^([^.]+).hbs$/.exec(filename);
+  if (!matches) {
+    return;
+  }
+  const name = matches[1];
+  const template = fs.readFileSync(partialsDir + '/' + filename, 'utf8');
+  hbs.registerPartial(name, template);
+});
+
 app.set('views', path.join(__dirname, 'views')); // eslint-disable-line
 app.set('view engine', 'hbs');
+
+
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -21,12 +39,6 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(require('node-sass-middleware')({
-  src: path.join(__dirname, 'public'), // eslint-disable-line
-  dest: path.join(__dirname, 'public'), // eslint-disable-line
-  indentedSyntax: true,
-  sourceMap: true
-}));
 app.use(express.static(path.join(__dirname, 'public'))); // eslint-disable-line
 
 app.use(headlinesAPI);
