@@ -2170,6 +2170,1162 @@ html:before {
   font-weight: 400;
   font-style: italic; }
 
+.o-colors-page-background {
+  background-color: #fff1e0; }
+
+.o-colors-page-text {
+  color: #333333; }
+
+.o-colors-box-background {
+  background-color: #f7e9d9; }
+
+.o-colors-link-text {
+  color: #26747a; }
+
+.o-colors-link-hover-text {
+  color: #505050; }
+
+.o-colors-link-title-text {
+  color: #333333; }
+
+.o-colors-link-title-hover-text {
+  color: #2e6e9e; }
+
+.o-colors-tag-link-text {
+  color: #9e2f50; }
+
+.o-colors-tag-link-hover-text {
+  color: #4f1828; }
+
+.o-colors-title-text {
+  color: #000000; }
+
+.o-colors-body-text {
+  color: #333333; }
+
+.o-colors-muted-text {
+  color: #cec6b9; }
+
+.o-colors-product-brand-background {
+  background-color: #9e2f50; }
+
+.o-colors-section-life-arts-all {
+  color: #92288f;
+  background-color: #92288f;
+  border-color: #92288f; }
+
+.o-colors-section-life-arts-alt-all {
+  color: #ebcaec;
+  background-color: #ebcaec;
+  border-color: #ebcaec; }
+
+.o-colors-section-magazine-all {
+  color: #0e6dcc;
+  background-color: #0e6dcc;
+  border-color: #0e6dcc; }
+
+.o-colors-section-magazine-alt-all {
+  color: #c5d4e8;
+  background-color: #c5d4e8;
+  border-color: #c5d4e8; }
+
+.o-colors-section-house-home-all {
+  color: #09a25c;
+  background-color: #09a25c;
+  border-color: #09a25c; }
+
+.o-colors-section-house-home-alt-all {
+  color: #a1dbb2;
+  background-color: #a1dbb2;
+  border-color: #a1dbb2; }
+
+.o-colors-section-money-all {
+  color: #cc0033;
+  background-color: #cc0033;
+  border-color: #cc0033; }
+
+.o-colors-section-money-alt-all {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #ffffff; }
+
+.o-colors-palette-transparent {
+  background-color: transparent; }
+
+.o-colors-palette-inherit {
+  background-color: inherit; }
+
+.o-colors-palette-pink {
+  background-color: #fff1e0; }
+
+.o-colors-palette-black {
+  background-color: #000000; }
+
+.o-colors-palette-white {
+  background-color: #ffffff; }
+
+.o-colors-palette-blue {
+  background-color: #2e6e9e; }
+
+.o-colors-palette-dark-blue {
+  background-color: #275e86; }
+
+.o-colors-palette-claret {
+  background-color: #9e2f50; }
+
+.o-colors-palette-orange {
+  background-color: #d66d06; }
+
+.o-colors-palette-grey-tint1 {
+  background-color: #b0b0b0; }
+
+.o-colors-palette-grey-tint2 {
+  background-color: #999999; }
+
+.o-colors-palette-grey-tint3 {
+  background-color: #777777; }
+
+.o-colors-palette-grey-tint4 {
+  background-color: #505050; }
+
+.o-colors-palette-grey-tint5 {
+  background-color: #333333; }
+
+.o-colors-palette-pink-tint1 {
+  background-color: #f7e9d9; }
+
+.o-colors-palette-pink-tint2 {
+  background-color: #e9decf; }
+
+.o-colors-palette-pink-tint3 {
+  background-color: #cec6b9; }
+
+.o-colors-palette-pink-tint4 {
+  background-color: #a7a59b; }
+
+.o-colors-palette-pink-tint5 {
+  background-color: #74736c; }
+
+.o-colors-palette-red {
+  background-color: #cc0000; }
+
+.o-colors-palette-green {
+  background-color: #458b00; }
+
+.o-colors-palette-orange-tint1 {
+  background-color: #eda45e; }
+
+.o-colors-palette-brown-tint1 {
+  background-color: #94826b; }
+
+.o-colors-palette-yellow-tint1 {
+  background-color: #eed485; }
+
+.o-colors-palette-green-tint1 {
+  background-color: #a6a471; }
+
+.o-colors-palette-bluegreen-tint1 {
+  background-color: #819e9a; }
+
+.o-colors-palette-silver-tint1 {
+  background-color: #c1b8b4; }
+
+.o-colors-palette-purple-tint1 {
+  background-color: #936971; }
+
+.o-colors-palette-purple-tint2 {
+  background-color: #737e7e; }
+
+.o-colors-palette-red-tint1 {
+  background-color: #b1493f; }
+
+.o-colors-palette-red-tint2 {
+  background-color: #c36256; }
+
+.o-colors-palette-red-tint3 {
+  background-color: #d17c70; }
+
+.o-colors-palette-red-tint4 {
+  background-color: #df9c92; }
+
+.o-colors-palette-red-tint5 {
+  background-color: #ebbcb3; }
+
+.o-colors-palette-blue-tint1 {
+  background-color: #598caf; }
+
+.o-colors-palette-blue-tint2 {
+  background-color: #75a5c2; }
+
+.o-colors-palette-blue-tint3 {
+  background-color: #8ab5cd; }
+
+.o-colors-palette-blue-tint4 {
+  background-color: #a9cadc; }
+
+.o-colors-palette-blue-tint5 {
+  background-color: #bcd7e5; }
+
+.o-colors-palette-section-purple {
+  background-color: #92288f; }
+
+.o-colors-palette-section-light-purple {
+  background-color: #ebcaec; }
+
+.o-colors-palette-section-blue {
+  background-color: #0e6dcc; }
+
+.o-colors-palette-section-light-blue {
+  background-color: #c5d4e8; }
+
+.o-colors-palette-section-green {
+  background-color: #09a25c; }
+
+.o-colors-palette-section-light-green {
+  background-color: #a1dbb2; }
+
+.o-colors-palette-section-red {
+  background-color: #cc0033; }
+
+.o-colors-palette-warm-1 {
+  background-color: #ffe9d7; }
+
+.o-colors-palette-warm-2 {
+  background-color: #f7e9d9; }
+
+.o-colors-palette-warm-3 {
+  background-color: #cec6b9; }
+
+.o-colors-palette-warm-4 {
+  background-color: #1d1d1d; }
+
+.o-colors-palette-warm-5 {
+  background-color: #fdf8f2; }
+
+.o-colors-palette-warm-6 {
+  background-color: #8b572a; }
+
+.o-colors-palette-cold-1 {
+  background-color: #505050; }
+
+.o-colors-palette-cold-2 {
+  background-color: #333333; }
+
+.o-colors-palette-cold-3 {
+  background-color: #1d1d1d; }
+
+.o-colors-palette-blue-1 {
+  background-color: #002758; }
+
+.o-colors-palette-blue-2 {
+  background-color: #eeeeee; }
+
+.o-colors-palette-purple-1 {
+  background-color: #410057; }
+
+.o-colors-palette-purple-2 {
+  background-color: #f3dee3; }
+
+.o-colors-palette-teal-1 {
+  background-color: #26747a; }
+
+.o-colors-palette-teal-2 {
+  background-color: #2bbbbf; }
+
+.o-colors-palette-claret-1 {
+  background-color: #9e2f50; }
+
+.o-colors-palette-claret-2 {
+  background-color: #ff7f8a; }
+
+.o-colors-palette-claret-inverse {
+  background-color: #4f1828; }
+
+.o-colors-palette-slate {
+  background-color: #252830; }
+
+.o-colors-palette-org-b2c {
+  background-color: #4e96eb; }
+
+.o-colors-palette-org-b2c-dark {
+  background-color: #3a70af; }
+
+.o-colors-palette-org-b2c-light {
+  background-color: #99c6fb; }
+
+.o-colors-palette-org-b2b {
+  background-color: #f6801a; }
+
+.o-colors-palette-org-b2b-dark {
+  background-color: #c85f04; }
+
+.o-colors-palette-org-b2b-light {
+  background-color: #f29d53; }
+
+.o-buttons {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin: 0;
+  outline: 0;
+  border-style: solid;
+  text-align: center;
+  text-decoration: none;
+  font-family: MetricWeb, sans-serif;
+  font-weight: 600;
+  border-radius: 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;
+  transition: 0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-clip: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-size: 16px;
+  min-height: 26px;
+  min-width: 26px;
+  padding: 5px 8px 5px 8px;
+  font-size: 14px;
+  line-height: 14px;
+  border-width: 1px;
+  color: #17484C;
+  background-color: transparent;
+  border-color: rgba(38, 116, 122, 0.4); }
+  .o-buttons[aria-selected=true], .o-buttons[aria-pressed=true] {
+    color: #164447;
+    background-color: rgba(43, 187, 191, 0.4);
+    border-color: rgba(38, 116, 122, 0.5); }
+  .o-buttons:not([disabled]):focus:not(:hover),
+  .o-hoverable-on .o-buttons:not([disabled]):hover {
+    background-color: rgba(43, 187, 191, 0.08);
+    border-color: rgba(38, 116, 122, 0.5); }
+  .o-buttons:not([disabled]):active {
+    color: #164447;
+    border-color: #f7e9d9; }
+  .o-buttons[disabled] {
+    pointer-events: none;
+    opacity: 0.4;
+    cursor: default; }
+  .o-buttons::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+.o-buttons--small {
+  background-size: 12px;
+  min-height: 22px;
+  min-width: 22px;
+  padding: 4px 7px 4px 7px;
+  font-size: 12px;
+  line-height: 12px;
+  border-width: 1px; }
+
+.o-buttons--medium {
+  background-size: 16px;
+  min-height: 26px;
+  min-width: 26px;
+  padding: 5px 8px 5px 8px;
+  font-size: 14px;
+  line-height: 14px;
+  border-width: 1px; }
+
+.o-buttons--big {
+  background-size: 18px;
+  min-height: 36px;
+  min-width: 36px;
+  padding: 8px 18px 8px 18px;
+  font-size: 18px;
+  line-height: 18px;
+  border-width: 1px; }
+
+.o-buttons--standard {
+  color: #17484C;
+  background-color: transparent;
+  border-color: rgba(38, 116, 122, 0.4); }
+  .o-buttons--standard[aria-selected=true], .o-buttons--standard[aria-pressed=true] {
+    color: #164447;
+    background-color: rgba(43, 187, 191, 0.4);
+    border-color: rgba(38, 116, 122, 0.5); }
+  .o-buttons--standard:not([disabled]):focus:not(:hover),
+  .o-hoverable-on .o-buttons--standard:not([disabled]):hover {
+    background-color: rgba(43, 187, 191, 0.08);
+    border-color: rgba(38, 116, 122, 0.5); }
+  .o-buttons--standard:not([disabled]):active {
+    color: #164447;
+    border-color: #f7e9d9; }
+
+.o-buttons--standout {
+  color: #ffffff;
+  background-color: #26747a;
+  border-color: #26747a; }
+  .o-buttons--standout[aria-selected=true], .o-buttons--standout[aria-pressed=true] {
+    color: #0A2F33;
+    background-color: #2bbbbf;
+    border-color: #2bbbbf; }
+  .o-buttons--standout[disabled] {
+    color: #17484C;
+    border-color: #26747a; }
+  .o-buttons--standout:not([disabled]):focus:not(:hover),
+  .o-hoverable-on .o-buttons--standout:not([disabled]):hover {
+    color: #ffffff;
+    background-color: #1a4f53 !important;
+    border-color: #1a4f53; }
+  .o-buttons--standout:not([disabled]):active {
+    color: #cccccc;
+    background-color: #1a4f53 !important; }
+
+.o-buttons--inverse {
+  color: #ffffff;
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.5); }
+  .o-buttons--inverse[aria-selected=true], .o-buttons--inverse[aria-pressed=true] {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff; }
+  .o-buttons--inverse:not([disabled]):focus:not(:hover),
+  .o-hoverable-on .o-buttons--inverse:not([disabled]):hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border-color: rgba(255, 255, 255, 0.5); }
+  .o-buttons--inverse:not([disabled]):active {
+    color: #ffffff; }
+
+.o-buttons--uncolored {
+  color: #000000;
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.5); }
+  .o-buttons--uncolored[aria-selected=true], .o-buttons--uncolored[aria-pressed=true] {
+    background-color: #000000 !important;
+    color: #ffffff;
+    border-color: #000000; }
+  .o-buttons--uncolored[disabled] {
+    color: rgba(0, 0, 0, 0.4);
+    border-color: rgba(0, 0, 0, 0.2); }
+  .o-buttons--uncolored:not([disabled]):focus:not(:hover),
+  .o-hoverable-on .o-buttons--uncolored:not([disabled]):hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.5); }
+  .o-buttons--uncolored:not([disabled]):active {
+    border-color: #000000; }
+
+.o-buttons--b2c {
+  color: #ffffff;
+  background-color: #3a70af;
+  border-color: #3a70af; }
+  .o-buttons--b2c[aria-selected=true], .o-buttons--b2c[aria-pressed=true] {
+    background-color: #99c6fb !important;
+    color: #1d1d1d;
+    border-color: #99c6fb; }
+  .o-buttons--b2c[disabled] {
+    color: #3a70af;
+    background-color: rgba(255, 255, 255, 0.4); }
+  .o-buttons--b2c:not([disabled]):focus:not(:hover),
+  .o-hoverable-on .o-buttons--b2c:not([disabled]):hover {
+    background-color: rgba(78, 150, 235, 0.8);
+    color: #1d1d1d;
+    border-color: #3a70af; }
+  .o-buttons--b2c:not([disabled]):active {
+    color: #1d1d1d;
+    background-color: rgba(78, 150, 235, 0.8);
+    border-color: #99c6fb; }
+
+.o-buttons__pagination > .o-buttons,
+.o-buttons-pagination > .o-buttons {
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 24px; }
+  .o-buttons__pagination > .o-buttons.o-buttons--big,
+  .o-buttons-pagination > .o-buttons.o-buttons--big {
+    padding-left: 9px;
+    padding-right: 9px;
+    min-width: 36px; }
+
+html > body .o-buttons-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 3px;
+  padding-left: 22px; }
+  html > body .o-buttons-icon.o-buttons-icon--icon-only {
+    padding-left: 0;
+    background-position: 50%; }
+  html > body .o-buttons-icon .o-buttons-icon__label {
+    font-size: 0;
+    height: 1px;
+    overflow: hidden;
+    display: block; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-left {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%2317484C,%2317484C&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%2317484C,%2317484C&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-left[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23164447,%23164447&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23164447,%23164447&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23164447,%23164447&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23164447,%23164447&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23164447,%23164447&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23164447,%23164447&format=png&width=128") \9;
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-right {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%2317484C,%2317484C&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%2317484C,%2317484C&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-right[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23164447,%23164447&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23164447,%23164447&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23164447,%23164447&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23164447,%23164447&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23164447,%23164447&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23164447,%23164447&format=png&width=128") \9;
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--standout {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--standout[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--standout[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%230A2F33,%230A2F33&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%230A2F33,%230A2F33&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--standout[disabled] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%2317484C,%2317484C&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%2317484C,%2317484C&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--standout:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--standout:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=png&width=128") \9;
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--standout {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--standout[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--standout[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%230A2F33,%230A2F33&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%230A2F33,%230A2F33&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--standout[disabled] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%2317484C,%2317484C&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%2317484C,%2317484C&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--standout:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--standout:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23CCCCCC,%23CCCCCC&format=png&width=128") \9;
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--inverse {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--inverse[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--inverse[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23000000,%23000000&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23000000,%23000000&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--inverse:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--inverse:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9;
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--inverse {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--inverse[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--inverse[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23000000,%23000000&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23000000,%23000000&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--inverse:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--inverse:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9;
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--uncolored {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23000000,%23000000&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23000000,%23000000&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--uncolored[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--uncolored[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--uncolored[disabled] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23000000,%23000000&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23000000,%23000000&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--uncolored:after {
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--uncolored {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23000000,%23000000&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23000000,%23000000&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--uncolored[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--uncolored[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--uncolored[disabled] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23000000,%23000000&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23000000,%23000000&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--uncolored:after {
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--b2c {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--b2c[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--b2c[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%231D1D1D,%231D1D1D&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%231D1D1D,%231D1D1D&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--b2c[disabled] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%233A70AF,%233A70AF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%233A70AF,%233A70AF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--b2c:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%231D1D1D,%231D1D1D&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%231D1D1D,%231D1D1D&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-left.o-buttons--b2c:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%231D1D1D,%231D1D1D&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=o-icons&tint=%231D1D1D,%231D1D1D&format=png&width=128") \9;
+      content: ''; }
+  html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--b2c {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--b2c[aria-selected=true], html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--b2c[aria-pressed=true] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%231D1D1D,%231D1D1D&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%231D1D1D,%231D1D1D&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--b2c[disabled] {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%233A70AF,%233A70AF&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%233A70AF,%233A70AF&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--b2c:not([disabled]):active {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%231D1D1D,%231D1D1D&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%231D1D1D,%231D1D1D&format=png&width=128") \9; }
+    html > body .o-buttons-icon.o-buttons-icon--arrow-right.o-buttons--b2c:after {
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%231D1D1D,%231D1D1D&format=svg");
+      background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%231D1D1D,%231D1D1D&format=png&width=128") \9;
+      content: ''; }
+
+.o-buttons__group > .o-buttons,
+.o-buttons-group > .o-buttons {
+  position: relative;
+  border-radius: 0; }
+  .o-buttons__group > .o-buttons + .o-buttons,
+  .o-buttons-group > .o-buttons + .o-buttons {
+    margin-left: -1px; }
+  .o-buttons__group > .o-buttons:hover, .o-buttons__group > .o-buttons:focus,
+  .o-buttons-group > .o-buttons:hover,
+  .o-buttons-group > .o-buttons:focus {
+    z-index: 1; }
+
+.o-buttons__group :first-child,
+.o-buttons-group :first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-left-width: 1px; }
+
+.o-buttons__group :last-child,
+.o-buttons-group :last-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+
+.o-typography-heading1 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 0 8px; }
+
+.o-typography-heading2 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 31px;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-typography-heading3 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-typography-heading4 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-typography-heading5 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400; }
+
+.o-typography-subhead {
+  font-family: MetricWeb, sans-serif;
+  line-height: 27px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+.o-typography-subhead--standard {
+  font-family: MetricWeb, sans-serif;
+  line-height: 27px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: MetricWeb, sans-serif;
+  line-height: 22px;
+  font-size: 20px;
+  font-weight: 600; }
+
+.o-typography-subhead--crosshead {
+  font-family: MetricWeb, sans-serif;
+  line-height: 27px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000000; }
+
+.o-typography-bold {
+  font-weight: 600; }
+
+.o-typography-italic {
+  font-style: italic; }
+
+.o-typography-sup {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  margin-top: -3px;
+  vertical-align: super; }
+
+.o-typography-sub {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: -5px;
+  vertical-align: sub; }
+
+.o-typography-link {
+  color: #26747a;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px dotted #26747a; }
+  .o-hoverable-on .o-typography-link:hover, .o-typography-link:focus {
+    color: #505050;
+    border-bottom-color: transparent; }
+
+.o-typography-caption {
+  font-family: MetricWeb, sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em; }
+
+.o-typography-flyline {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  letter-spacing: 1px; }
+  .o-typography-flyline__link {
+    text-decoration: none; }
+  .o-typography-flyline__link:hover {
+    border-bottom: 1px dotted; }
+
+.o-typography-link-topic {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #9e2f50;
+  text-decoration: none; }
+  .o-typography-link-topic:hover {
+    color: #4f1828; }
+
+.o-typography-link-topic--medium {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #9e2f50;
+  text-decoration: none;
+  font-family: MetricWeb, sans-serif;
+  line-height: 22px;
+  font-size: 20px;
+  font-weight: 600; }
+  .o-typography-link-topic--medium:hover {
+    color: #4f1828; }
+
+.o-typography-body {
+  color: #333333;
+  font: 18px/1.4 Georgia, serif;
+  margin: 0.3em 0 0.8em; }
+
+.o-typography-lead {
+  font-family: MetricWeb, sans-serif;
+  line-height: 27px;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-typography-lead--small {
+  font-family: MetricWeb, sans-serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-typography-block {
+  margin-top: 0.3em;
+  margin-bottom: 0.8em; }
+
+.o-typography-list {
+  list-style-position: outside;
+  padding-left: 20px;
+  font-weight: normal;
+  color: #333333;
+  font: 18px/1.4 Georgia, serif;
+  margin: 0.3em 0 0.8em;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em; }
+
+.o-typography-list--ordered {
+  list-style-type: decimal; }
+
+.o-typography-list--unordered {
+  list-style-type: disc; }
+
+.o-typography-footer {
+  font-family: MetricWeb, sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400; }
+
+.o-typography-blockquote {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #505050; }
+
+.o-typography-big-number {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  font-weight: 600;
+  color: #505050;
+  font-size: 3em;
+  line-height: 1em; }
+
+.o-typography-aside__title {
+  font-weight: 600;
+  color: #505050;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+  .o-typography-aside__title a {
+    color: #505050;
+    border-bottom: 0;
+    text-decoration: none; }
+
+.o-typography-aside__title--large {
+  font-weight: 600;
+  color: #505050;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 31px;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0; }
+  .o-typography-aside__title--large a {
+    color: #505050;
+    border-bottom: 0;
+    text-decoration: none; }
+
+.o-typography-aside__headline {
+  color: #505050;
+  word-wrap: break-word;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 27px; }
+  .o-typography-aside__headline p {
+    margin: 0; }
+
+.o-typography-aside__headline--small {
+  color: #505050;
+  word-wrap: break-word;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400; }
+  .o-typography-aside__headline--small p {
+    margin: 0; }
+
+.o-typography-aside__headline--large {
+  color: #505050;
+  word-wrap: break-word;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 31px; }
+  .o-typography-aside__headline--large p {
+    margin: 0; }
+
+.o-typography-aside__body {
+  color: #505050;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 5px 0 0; }
+
+.o-typography-aside__body--small {
+  font-family: MetricWeb, sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #505050;
+  margin: 5px 0 0; }
+
+.o-typography-timestamp {
+  font-family: MetricWeb, sans-serif;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #8b572a;
+  text-transform: uppercase; }
+
+.o-typography-body-wrapper h1 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 0 8px; }
+
+.o-typography-body-wrapper h2 {
+  font-family: MetricWeb, sans-serif;
+  line-height: 27px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+.o-typography-body-wrapper h3 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-typography-body-wrapper h4 {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-typography-body-wrapper a {
+  color: #26747a;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px dotted #26747a; }
+  .o-hoverable-on .o-typography-body-wrapper a:hover, .o-typography-body-wrapper a:focus {
+    color: #505050;
+    border-bottom-color: transparent; }
+
+.o-typography-body-wrapper p {
+  color: #333333;
+  font: 18px/1.4 Georgia, serif;
+  margin: 0.3em 0 0.8em;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em; }
+
+.o-typography-body-wrapper ol,
+.o-typography-body-wrapper ul {
+  list-style-position: outside;
+  padding-left: 20px;
+  font-weight: normal;
+  color: #333333;
+  font: 18px/1.4 Georgia, serif;
+  margin: 0.3em 0 0.8em;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em; }
+
+.o-typography-body-wrapper footer {
+  font-family: MetricWeb, sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400; }
+
+.o-typography-body-wrapper blockquote p {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #505050; }
+
+.o-typography-body-wrapper blockquote footer {
+  font-weight: 600; }
+
+.o-typography-body-wrapper aside h3 {
+  font-weight: 600;
+  color: #505050;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+  .o-typography-body-wrapper aside h3 a {
+    color: #505050;
+    border-bottom: 0;
+    text-decoration: none; }
+
+.o-typography-body-wrapper aside h4 {
+  color: #505050;
+  word-wrap: break-word;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 27px; }
+  .o-typography-body-wrapper aside h4 p {
+    margin: 0; }
+
+.o-typography-body-wrapper aside div p {
+  color: #505050;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 5px 0 0; }
+
+.o-typography-body-wrapper aside footer {
+  font-weight: 600; }
+
+.o-typography-body-wrapper aside blockquote p {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #505050; }
+
+.o-typography-body-wrapper aside p {
+  margin: 5px 0 0; }
+
+.o-typography-body-wrapper strong {
+  font-weight: 600; }
+
+.o-typography-body-wrapper em {
+  font-style: italic; }
+
+.o-typography-body-wrapper sup {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  margin-top: -3px;
+  vertical-align: super; }
+
+.o-typography-body-wrapper sub {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: -5px;
+  vertical-align: sub; }
+
+.o-typography-body-wrapper ol,
+.o-typography-body-wrapper ul {
+  list-style-position: outside;
+  padding-left: 20px;
+  font-weight: normal;
+  color: #333333;
+  font: 18px/1.4 Georgia, serif;
+  margin: 0.3em 0 0.8em;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em; }
+
+.o-typography-body-wrapper ol {
+  list-style-type: decimal; }
+
+.o-typography-body-wrapper ul {
+  list-style-type: disc; }
+
+.o-typography-body-wrapper figcaption {
+  font-family: MetricWeb, sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em; }
+
+.o-typography-aside-wrapper h3 {
+  font-weight: 600;
+  color: #505050;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+  .o-typography-aside-wrapper h3 a {
+    color: #505050;
+    border-bottom: 0;
+    text-decoration: none; }
+
+.o-typography-aside-wrapper h4 {
+  color: #505050;
+  word-wrap: break-word;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 27px; }
+  .o-typography-aside-wrapper h4 p {
+    margin: 0; }
+
+.o-typography-aside-wrapper div p {
+  color: #505050;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 5px 0 0; }
+
+.o-typography-aside-wrapper footer {
+  font-weight: 600; }
+
+.o-typography-aside-wrapper blockquote p {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #505050; }
+
+.o-typography-aside-wrapper p {
+  margin: 5px 0 0; }
+
 /* at some point these should be normalised in o-icons */
 .o-header {
   background-color: #fff1e0;
@@ -3325,6 +4481,185 @@ html:before {
   .o-header--transparent .o-header__anon-link--highlight:after,
   .o-header--transparent .o-header__anon-link[aria-selected="true"]:after {
     background-color: #ffffff; }
+
+.o-card {
+  background-color: #fff1e0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 10px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: auto; }
+  .o-card--landscape {
+    display: block; }
+    .o-card--landscape.o-card--image-left .o-card__content {
+      width: 60%;
+      float: right; }
+  .o-card--portrait {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+    .o-card--portrait .o-card__image {
+      float: none;
+      width: 100%;
+      padding: 0; }
+    .o-card--portrait .o-card__content {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+      float: none;
+      width: 100%;
+      -ms-flex-order: 2;
+      order: 2; }
+  .o-card--standout {
+    background-color: #e9decf; }
+
+.o-card__content {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  float: none;
+  width: 100%;
+  -ms-flex-order: 2;
+  order: 2; }
+
+.o-card__meta-image {
+  float: right;
+  width: 60px;
+  height: 60px; }
+  .o-card__meta-image--rounded {
+    background-color: #bcd7e5;
+    border-radius: 50%;
+    overflow: hidden; }
+
+.o-card__tag {
+  color: #9e2f50;
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin: 0 0 10px;
+  text-decoration: none; }
+  .o-card__tag:hover {
+    color: #505050; }
+  .o-card--opinion .o-card__tag {
+    font-family: FinancierTextWeb, serif;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2e6e9e; }
+    .o-card--opinion .o-card__tag a {
+      color: inherit; }
+
+.o-card__heading {
+  font-family: FinancierDisplayWeb, serif;
+  line-height: 31px;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+  color: #333333;
+  margin-bottom: 10px; }
+  .o-card__heading--small {
+    font-family: FinancierDisplayWeb, serif;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0; }
+  .o-card__heading a {
+    color: inherit;
+    text-decoration: none; }
+    .o-card__heading a:visited {
+      color: #777777; }
+  .o-card__heading a:hover {
+    border-bottom: 1px dotted; }
+
+.o-card__standfirst {
+  color: #505050;
+  font-family: FinancierTextWeb, serif;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0; }
+
+.o-card__timestamp {
+  color: #8b572a;
+  font-family: MetricWeb, sans-serif;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  display: block;
+  padding: 10px 0;
+  text-transform: uppercase; }
+
+.o-card__image {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  display: block;
+  margin: 0 0 10px;
+  min-width: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -ms-flex-order: 1;
+  order: 1; }
+  .o-card__image--top {
+    -ms-flex-order: -1;
+    order: -1;
+    margin: 0 0 10px; }
+  .o-card__image--right {
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+    margin: 0; }
+  .o-card__image--bottom {
+    -ms-flex-order: 6;
+    order: 6;
+    margin: 10px 0 0; }
+  .o-card__image--left {
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+    margin: 0; }
+  .o-card__image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0; }
+
+.o-card__related-content {
+  color: #505050;
+  list-style: none inside;
+  margin: 5px 0 10px;
+  padding: 0;
+  -ms-flex-order: 6;
+  order: 6; }
+
+.o-card__related-content-item {
+  font-family: MetricWeb, sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333333;
+  padding: 2px 0; }
+  .o-card__related-content-item:before {
+    content: '>';
+    display: inline-block;
+    margin-right: 10px; }
+  .o-card__related-content-item a {
+    color: inherit;
+    text-decoration: none; }
+  .o-card__related-content-item a:hover {
+    border-bottom: 1px dotted; }
 
 html {
   background-color: #fff1e0;

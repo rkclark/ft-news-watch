@@ -10,12 +10,35 @@ $o-ft-icons-is-silent: false;
 // Output header classes
 $o-header-is-silent: false;
 
+// Output color classes
+$o-colors-is-silent: false;
+
+// Output hoverable classes
+$o-hoverable-is-silent: false;
+
+// Output typography classes
+$o-typography-is-silent: false;
+
+// Output buttons classes
+$o-buttons-is-silent: false;
+
+// Output visual effects classes
+$o-visual-effects-is-silent: false;
+
+// Output card classes
+$o-card-is-silent: false;
+
 // Import Origami components
 @import 'o-grid/main';
 @import 'o-fonts/main';
 @import 'o-icons/main';
 @import 'o-header/main';
+@import 'o-card/main';
 @import 'o-colors/main';
+@import 'o-hoverable/main';
+@import 'o-typography/main';
+@import 'o-buttons/main';
+@import 'o-visual-effects/main';
 
 // Store the default FT sans-serif font stack in a variable
 $sans-serif: oFontsGetFontFamilyWithFallbacks(BentonSans);
