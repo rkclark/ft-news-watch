@@ -1,0 +1,20 @@
+{
+  "name": "ft-news-app",
+  "description": "FT headline aggregator",
+  "main": "src/app.js",
+  "authors": [
+    "Rick Clark <rkingsleyclark@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "o-header": "^6.14.1"
+  }
+}
