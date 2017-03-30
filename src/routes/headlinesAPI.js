@@ -3,23 +3,33 @@ const router = express.Router();
 import fetch from 'node-fetch';
 const FT_API_KEY = process.env.FT_API_KEY;
 
-const getAllQuery = {
-	"queryString": "",
-  "queryContext" : {
-   "curations" : [ "ARTICLES"]
-  },
-	"resultContext" : {
-		 "aspects" :[ "title","lifecycle","location","summary","editorial" ]
-	}
+const generateSearchQuery = function(searchParam) {
+	return (
+		{
+			"queryString": searchParam,
+		  "queryContext" : {
+		   "curations" : [ "ARTICLES"]
+		  },
+			"resultContext" : {
+				 "aspects" :[ "title","lifecycle","location","summary","editorial" ]
+			}
+		}
+	);
 };
 
 router.get('/headlines', (req,res) => {
+	let searchParam = "";
+
+	if (typeof req.query.q !== 'undefined') {
+		searchParam = req.query.q;
+	}
+
   fetch(`http://api.ft.com/content/search/v1?apiKey=${FT_API_KEY}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify(getAllQuery)
+    body: JSON.stringify(generateSearchQuery(searchParam))
   })
     .then(res => {
       return res.json();

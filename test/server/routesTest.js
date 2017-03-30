@@ -48,4 +48,19 @@ describe('Routes', () => {
       });
   });
 
+  describe('GET /headlines?q=starcraft', () => {
+
+      it('Returns a JSON object containing query object with "starcraft" as querystring and results array', (done) => {
+        chai.request(server)
+            .get('/headlines?q=starcraft')
+            .end((err, res) => {
+                expect(res.statusCode).to.equal(200);
+                expect(res.type).to.equal('application/json');
+                expect(res.body.query.queryString).to.equal('starcraft');
+                expect(res.body.results).to.be.a('array');
+              done();
+            });
+      });
+  });
+
 });

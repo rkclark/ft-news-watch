@@ -12,8 +12,13 @@ router.get('/search', function(req, res) {
   let pageCount;
   let onFirstPage;
   let onLastPage;
+  let searchTerm;
 
-  fetch('http://localhost:3000/headlines')
+  if (typeof req.query.q !== 'undefined') {
+    searchTerm = req.query.q;
+  }
+
+  fetch(searchTerm ? `http://localhost:3000/headlines?q=${searchTerm}` : 'http://localhost:3000/headlines')
     .then(response => {
       return response.json();
     })
