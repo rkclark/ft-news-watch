@@ -1,7 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
 import path from 'path';
-import apicache from 'apicache';
 // import favicon from 'serve-favicon';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
@@ -12,14 +11,7 @@ import index from './routes/index';
 import search from './routes/search';
 import headlinesAPI from './routes/headlinesAPI';
 
-apicache.options({
-  debug: true
-});
-
-const cache = apicache.middleware;
-
 const app = express();
-app.use(cache('5 minutes'));
 // view engine setup
 
 const partialsDir = __dirname + '/views/partials'; // eslint-disable-line

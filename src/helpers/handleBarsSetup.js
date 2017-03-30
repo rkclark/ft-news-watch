@@ -31,4 +31,12 @@ hbs.registerHelper("math", function(lvalue, operator, rvalue) {
     }[operator];
 });
 
+hbs.registerHelper('search', (searchTerm) => {
+  if (searchTerm) {
+    return `search?q=${searchTerm}&`;
+  }
+  return '?';
+});
+
+
 module.exports = hbs;

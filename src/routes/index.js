@@ -38,7 +38,8 @@ router.get('/', function(req, res) {
         pageCount: pageCount,
         currentPage: currentPage,
         onFirstPage: onFirstPage,
-        onLastPage: onLastPage
+        onLastPage: onLastPage,
+        searchTerm: false
       });
     });
 });

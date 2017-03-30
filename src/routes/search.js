@@ -43,7 +43,8 @@ router.get('/search', function(req, res) {
         pageCount: pageCount,
         currentPage: currentPage,
         onFirstPage: onFirstPage,
-        onLastPage: onLastPage
+        onLastPage: onLastPage,
+        searchTerm: searchTerm
       });
     });
 });
