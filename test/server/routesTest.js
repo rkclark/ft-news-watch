@@ -22,7 +22,7 @@ describe('Routes', () => {
 
   describe('GET /headlines', () => {
 
-      it('it should a JSON object containing query object and results array', (done) => {
+      it('iReturns a JSON object containing query object and results array', (done) => {
         chai.request(server)
             .get('/headlines')
             .end((err, res) => {
