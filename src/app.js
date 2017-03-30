@@ -5,16 +5,16 @@ import path from 'path';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
-import hbs from './helpers/handleBarsSetup';
+import hbs from './server/helpers/handleBarsSetup';
 import fs from 'fs';
-import index from './routes/index';
-import search from './routes/search';
-import headlinesAPI from './routes/headlinesAPI';
+import index from './server/routes/index';
+import search from './server/routes/search';
+import headlinesAPI from './server/routes/headlinesAPI';
 
 const app = express();
 // view engine setup
 
-const partialsDir = __dirname + '/views/partials'; // eslint-disable-line
+const partialsDir = __dirname + '/server/views/partials'; // eslint-disable-line
 
 const filenames = fs.readdirSync(partialsDir);
 
@@ -28,7 +28,7 @@ filenames.forEach((filename) => {
   hbs.registerPartial(name, template);
 });
 
-app.set('views', path.join(__dirname, 'views')); // eslint-disable-line
+app.set('views', path.join(__dirname, 'server/views')); // eslint-disable-line
 app.set('view engine', 'hbs');
 
 
