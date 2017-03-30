@@ -16,5 +16,10 @@ describe('Search Summary', function() {
       browser.url('http://localhost:3000/search?q=trump');
       expect($('.nw-search-summary').getText()).to.contain('100 results for "trump"');
     });
+
+    it('Displays a message if search returns no results', function() {
+      browser.url('http://localhost:3000/search?q=kjglkhjsklgjhaelkhjgkhjakjhdgjs');
+      expect($('.nw-search-summary').getText()).to.contain('0 results for');
+    });
   });
 });
