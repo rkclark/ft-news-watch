@@ -40,6 +40,9 @@ $o-card-is-silent: false;
 @import 'o-buttons/main';
 @import 'o-visual-effects/main';
 
+// Import custom scss files
+@import 'global';
+
 // Store the default FT sans-serif font stack in a variable
 $sans-serif: oFontsGetFontFamilyWithFallbacks(BentonSans);
 

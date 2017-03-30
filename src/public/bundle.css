@@ -4661,6 +4661,15 @@ html > body .o-buttons-icon {
   .o-card__related-content-item a:hover {
     border-bottom: 1px dotted; }
 
+.text-center {
+  text-align: center; }
+
+.mb-2 {
+  margin-bottom: 0.5rem; }
+
+.mb-4 {
+  margin-bottom: 2rem; }
+
 html {
   background-color: #fff1e0;
   font-family: BentonSans, sans-serif;
