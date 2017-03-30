@@ -2,4 +2,23 @@
   {{#each headlines}}
     {{> headline-card }}
   {{/each}}
+  <div class="o-buttons__pagination">
+    {{#if onFirstPage}}
+      <a class="o-buttons o-buttons-icon o-buttons-icon--arrow-left o-buttons-icon--icon-only" disabled><span class="o-buttons-icon__label">Fewer results</span></a>
+    {{else}}
+      <a href="/?page={{math currentPage "-" 1}}" class="o-buttons o-buttons-icon o-buttons-icon--arrow-left o-buttons-icon--icon-only"><span class="o-buttons-icon__label">Fewer results</span></a>
+    {{/if}}
+    {{#times pageCount}}
+      {{#ifeq this ../currentPage}}
+        <a class="o-buttons" aria-selected="true">{{../this}}</a>
+      {{else}}
+        <a href="/?page={{../this}}"  class="o-buttons">{{../this}}</a>
+      {{/ifeq}}
+    {{/times}}
+    {{#if onLastPage}}
+      <a class="o-buttons o-buttons-icon o-buttons-icon--arrow-right o-buttons-icon--icon-only" disabled><span class="o-buttons-icon__label">More results</span></a>
+    {{else}}
+      <a href="/?page={{math currentPage "+" 1}}" class="o-buttons o-buttons-icon o-buttons-icon--arrow-right o-buttons-icon--icon-only"><span class="o-buttons-icon__label">More results</span></a>
+    {{/if}}
+  </div>
 </div>

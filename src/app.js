@@ -5,7 +5,7 @@ import path from 'path';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
-import hbs from 'hbs';
+import hbs from './helpers/handleBarsSetup';
 import fs from 'fs';
 import index from './routes/index';
 import headlinesAPI from './routes/headlinesAPI';
