@@ -1,7 +1,9 @@
-<div class="headlines-list">
-  {{#each headlines}}
-    {{> headline-card }}
-  {{/each}}
+<div class="headlines-list o-grid-container">
+  <div class="o-grid-row">
+    {{#each headlines}}
+      {{> headline-card }}
+    {{/each}}
+  </div>
   <div class="o-buttons__pagination">
     {{#if onFirstPage}}
       <a class="o-buttons o-buttons-icon o-buttons-icon--arrow-left o-buttons-icon--icon-only" disabled><span class="o-buttons-icon__label">Fewer results</span></a>
