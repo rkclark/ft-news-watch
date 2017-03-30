@@ -8,6 +8,7 @@ import bodyParser from 'body-parser';
 import hbs from './helpers/handleBarsSetup';
 import fs from 'fs';
 import index from './routes/index';
+import search from './routes/search';
 import headlinesAPI from './routes/headlinesAPI';
 
 const app = express();
@@ -42,7 +43,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // eslint-disable-line
 
 app.use(headlinesAPI);
-app.use('/', index);
+app.use(index);
+app.use(search);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

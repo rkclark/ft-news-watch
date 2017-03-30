@@ -20,6 +20,19 @@ describe('Routes', () => {
       });
   });
 
+  describe('GET /search', () => {
+
+      it('Returns an html document', (done) => {
+        chai.request(server)
+            .get('/search')
+            .end((err, res) => {
+                expect(res.statusCode).to.equal(200);
+                expect(res.type).to.equal('text/html');
+              done();
+            });
+      });
+  });
+
   describe('GET /headlines', () => {
 
       it('Returns a JSON object containing query object and results array', (done) => {
