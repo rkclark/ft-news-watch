@@ -13,6 +13,7 @@ router.get('/search', function(req, res) {
   let onFirstPage;
   let onLastPage;
   let searchTerm;
+  let numberOfResults;
 
   if (typeof req.query.q !== 'undefined') {
     searchTerm = req.query.q;
@@ -24,6 +25,7 @@ router.get('/search', function(req, res) {
     })
     .then(json => {
       const headlines = json.results[0].results;
+      numberOfResults = headlines.length;
 
       while (headlines.length > 0) {
         headlinesArrays.push(headlines.splice(0, pageSize));
@@ -44,7 +46,8 @@ router.get('/search', function(req, res) {
         currentPage: currentPage,
         onFirstPage: onFirstPage,
         onLastPage: onLastPage,
-        searchTerm: searchTerm
+        searchTerm: searchTerm,
+        numberOfResults: numberOfResults
       });
     });
 });

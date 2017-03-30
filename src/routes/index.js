@@ -12,6 +12,7 @@ router.get('/', function(req, res) {
   let pageCount;
   let onFirstPage;
   let onLastPage;
+  let numberOfResults;
 
   fetch('http://localhost:3000/headlines')
     .then(response => {
@@ -19,6 +20,7 @@ router.get('/', function(req, res) {
     })
     .then(json => {
       const headlines = json.results[0].results;
+      numberOfResults = headlines.length;
 
       while (headlines.length > 0) {
         headlinesArrays.push(headlines.splice(0, pageSize));
@@ -39,7 +41,8 @@ router.get('/', function(req, res) {
         currentPage: currentPage,
         onFirstPage: onFirstPage,
         onLastPage: onLastPage,
-        searchTerm: false
+        searchTerm: false,
+        numberOfResults: numberOfResults
       });
     });
 });
