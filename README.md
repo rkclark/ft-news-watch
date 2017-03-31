@@ -32,7 +32,7 @@ To build dist files run `gulp create:dist`. This is run automatically when the a
 
 ### Specification
 
-The app is built to the follow specification:
+The app is built to the following specification:
 
 **User Stories**
 
@@ -52,7 +52,7 @@ I want to be able to search for headlines containing specific words,
 So that I can find related news articles
 ```
 
-** Technical Requirements **
+**Technical Requirements**
 
 The app must be:
 - Server rendered
@@ -73,22 +73,24 @@ The app is built with:
 
 Server side code is written in Javascript ES6 and transpiled using Babel.
 
-** Performance and Accessbility **
+**Performance and Accessbility**
 
 To maximise the site's performance and accessibility the following steps have been taken:
 - All content is server rendered
 - The client is capable of running with Javascript disabled
 - Browsers not meeting the FT's 'Cuts the Mustard' standard are served a core version of the Origami components. Modern browsers receive the full enhanced experience.
-- Minification of bundled Javascript and CSS files
-- Browser caching of static files (for 8 days)
-- Caching of API responses from the FT Headline API for 5 minutes
+- Bundled Javascript and CSS files are minified.
+- Static files are subject to browser caching (for 8 days)
+- API responses from the FT Headline API are cached on the News Watch server for 5 minutes
 
 As a result, the site receives the following scores from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/):
 
 **Mobile 91/100**
+
 ![Mobile 91/100](http://i.imgur.com/moKuX1R.png)
 
 **Desktop 97/100**
+
 ![Desktop 97/100](http://i.imgur.com/vpoHC4u.png)
 
 ### Screenshots
@@ -103,12 +105,12 @@ As a result, the site receives the following scores from [Google PageSpeed Insig
 
 **User Search - Mobile**
 
-![User search mobile](http://i.imgur.com/K4QbrV7.png)
+![User search mobile](http://i.imgur.com/5iAUkvq.png)
 
 **Medium Screen Layout**
 
-![Medium screen layout](http://i.imgur.com/yfgr6jl.png)
+![Medium screen layout](http://i.imgur.com/ctKrGJe.png)
 
 **Large Screen Layout**
 
-![Large screen layout](http://i.imgur.com/eG0XlMB.png)
+![Large screen layout](http://i.imgur.com/wiKsMcV.png)
