@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import express from 'express';
 import path from 'path';
-// import favicon from 'serve-favicon';
+import favicon from 'serve-favicon';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
@@ -12,8 +12,8 @@ import search from './server/routes/search';
 import headlinesAPI from './server/routes/headlinesAPI';
 
 const app = express();
-// view engine setup
 
+// view engine setup
 const partialsDir = __dirname + '/server/views/partials'; // eslint-disable-line
 
 const filenames = fs.readdirSync(partialsDir);
@@ -31,10 +31,7 @@ filenames.forEach((filename) => {
 app.set('views', path.join(__dirname, 'server/views')); // eslint-disable-line
 app.set('view engine', 'hbs');
 
-
-
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico'))); // eslint-disable-line
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
