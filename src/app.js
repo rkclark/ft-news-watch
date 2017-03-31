@@ -39,7 +39,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-const eightDays = 86400000;
+const eightDays = 691200000;
 
 if (process.env.NODE_ENV === 'production') { // eslint-disable-line
   app.use(express.static(path.join(__dirname, 'public'), { maxAge: eightDays })); // eslint-disable-line
