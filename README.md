@@ -71,6 +71,13 @@ The app is built with:
 - Gulp
 - Sass
 
+And tested with:
+
+- Mocha
+- Chai
+- Sinon
+- WebdriverIO
+
 Server side code is written in Javascript ES6 and transpiled using Babel.
 
 **Performance and Accessbility**
