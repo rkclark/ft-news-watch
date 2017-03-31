@@ -1,8 +1,8 @@
 import express from 'express';
-const router = express.Router();
-import fetch from 'node-fetch';
+const router = express.Router(); // eslint-disable-line
+import 'isomorphic-fetch';
 import apicache from 'apicache';
-const FT_API_KEY = process.env.FT_API_KEY;
+const FT_API_KEY = process.env.FT_API_KEY; // eslint-disable-line
 
 apicache.options({
   debug: true

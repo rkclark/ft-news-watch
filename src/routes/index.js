@@ -1,13 +1,10 @@
 import express from 'express';
 const router = express.Router();
-import ResultsRenderer from '../helpers/resultsRenderer';
-
-
+import renderResults from '../helpers/renderResults';
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  const resultsRenderer = new ResultsRenderer(req, res);
-  resultsRenderer.render();
+  renderResults(req,res);
 });
 
 module.exports = router;

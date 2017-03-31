@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { expect } from 'chai';
 import chai from 'chai';
 import chaiHttp from 'chai-http';
@@ -5,7 +6,7 @@ import server from '../../src/app.js';
 
 chai.use(chaiHttp);
 
-describe('Routes', () => {
+xdescribe('Routes', () => {
 
   describe('GET /', () => {
 
