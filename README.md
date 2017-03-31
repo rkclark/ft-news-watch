@@ -76,12 +76,12 @@ Server side code is written in Javascript ES6 and transpiled using Babel.
 **Performance and Accessbility**
 
 To maximise the site's performance and accessibility the following steps have been taken:
-- All content is server rendered
-- The client is capable of running with Javascript disabled
+- All content is server rendered.
+- The client is capable of running with Javascript disabled.
 - Browsers not meeting the FT's 'Cuts the Mustard' standard are served a core version of the Origami components. Modern browsers receive the full enhanced experience.
 - Bundled Javascript and CSS files are minified.
-- Static files are subject to browser caching (for 8 days)
-- API responses from the FT Headline API are cached on the News Watch server for 5 minutes
+- Static files are subject to browser caching (for 8 days).
+- API responses from the FT Headline API are cached on the News Watch server for 5 minutes.
 
 As a result, the site receives the following scores from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/):
 
