@@ -2,10 +2,13 @@
   <div class="o-grid-row text-center mb-4">
     <div data-o-grid-colspan="12">
       {{#if searchTerm}}
-        <h2 class="o-typography-heading2 nw-search-summary">{{numberOfResults}} results for "{{searchTerm}}"&hellip;</h2>
+        <h2 class="o-typography-heading2 nw-search-summary">Showing {{numberOfResults}} results for "{{searchTerm}}"&hellip;</h2>
       {{else}}
-        <h2 class="o-typography-heading2 nw-search-summary">{{numberOfResults}} latest articles from the FT&hellip;</h2>
+        <h2 class="o-typography-heading2 nw-search-summary">Showing the {{numberOfResults}} latest articles from the FT&hellip;</h2>
       {{/if}}
+    </div>
+    <div class="o-typography-body nw-page-count" data-o-grid-colspan="12">
+      <span>Page {{currentPage}} of {{pageCount}}</span>
     </div>
   </div>
   <div class="o-grid-row mb-4">

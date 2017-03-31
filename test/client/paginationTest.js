@@ -11,6 +11,33 @@ describe('Headline pagination', function() {
       expect(headlines.value.length === 20).to.be.true;
   });
 
+  describe('Pagination summary', function() {
+    it('Shows "Page 1 of 5" when on first page', function(){
+        browser.url('http://localhost:3000');
+        expect($('.nw-page-count span').getText()).to.equal('Page 1 of 5');
+    });
+
+    it('Shows "Page 2 of 5" when on second page', function(){
+        browser.url('http://localhost:3000/?page=2');
+        expect($('.nw-page-count span').getText()).to.equal('Page 2 of 5');
+    });
+
+    it('Shows "Page 3 of 5" when on second page', function(){
+        browser.url('http://localhost:3000/?page=3');
+        expect($('.nw-page-count span').getText()).to.equal('Page 3 of 5');
+    });
+
+    it('Shows "Page 4 of 5" when on second page', function(){
+        browser.url('http://localhost:3000/?page=4');
+        expect($('.nw-page-count span').getText()).to.equal('Page 4 of 5');
+    });
+
+    it('Shows "Page 5 of 5" when on second page', function(){
+        browser.url('http://localhost:3000/?page=5');
+        expect($('.nw-page-count span').getText()).to.equal('Page 5 of 5');
+    });
+  });
+
   describe('Pagination arrows for / route', function() {
 
     it('Disables left arrow and enables right arrow when on page 1', function(){
