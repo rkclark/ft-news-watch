@@ -3,6 +3,9 @@ const obt = require('origami-build-tools');
 const rename = require("gulp-rename");
 const del = require("del");
 const runSequence = require('run-sequence');
+const uglify = require('gulp-uglify');
+const gulpIf = require('gulp-if');
+const cssnano = require('gulp-cssnano');
 
 gulp.task('build', function() {
 	return obt.build(gulp, {
@@ -12,6 +15,15 @@ gulp.task('build', function() {
 		buildCss: 'bundle.css',
 		buildFolder: 'src/public'
 	});
+});
+
+gulp.task('minify', function(){
+  return gulp.src('src/public/bundle*')
+    //Minify js files
+    .pipe(gulpIf('*.js', uglify()))
+    //Minify css files
+    .pipe(gulpIf('*.css', cssnano()))
+    .pipe(gulp.dest('src/public'));
 });
 
 gulp.task('stopBabelrc', function(){
@@ -37,7 +49,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', function (callback) {
-  runSequence('stopBabelrc', 'build', 'startBabelrc',
+  runSequence('stopBabelrc', 'build', 'minify', 'startBabelrc',
     callback
   );
 });
