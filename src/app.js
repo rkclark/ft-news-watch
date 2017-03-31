@@ -5,6 +5,7 @@ import favicon from 'serve-favicon';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
+import compress from 'compression';
 import hbs from './server/helpers/handleBarsSetup';
 import fs from 'fs';
 import index from './server/routes/index';
@@ -31,6 +32,7 @@ filenames.forEach((filename) => {
 app.set('views', path.join(__dirname, 'server/views')); // eslint-disable-line
 app.set('view engine', 'hbs');
 
+app.use(compress());
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico'))); // eslint-disable-line
 app.use(logger('dev'));
 app.use(bodyParser.json());
