@@ -4670,6 +4670,11 @@ html > body .o-buttons-icon {
 .mb-4 {
   margin-bottom: 2rem; }
 
+.nw-header {
+  color: #ffffff; }
+  .nw-header:hover {
+    color: #eeeeee; }
+
 html {
   background-color: #fff1e0;
   font-family: BentonSans, sans-serif;

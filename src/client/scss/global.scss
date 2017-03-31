@@ -9,3 +9,10 @@
 .mb-4 {
   margin-bottom: 2rem;
 }
+
+.nw-header {
+  color: oColorsGetPaletteColor('white');
+  &:hover {
+    color: oColorsGetPaletteColor('blue-2');
+  }
+}

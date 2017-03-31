@@ -11,7 +11,7 @@ describe('Site Header', function() {
     it('Displays correct page header', function () {
         browser.url('http://localhost:3000');
         const header = $('.nw-header');
-        expect(header.getText()).to.equal('News Watch');
+        expect(header.getText()).to.equal('NEWS WATCH');
     });
 
     it('Displays correct FT header link', function () {
