@@ -6,8 +6,11 @@ const runSequence = require('run-sequence');
 const uglify = require('gulp-uglify');
 const gulpIf = require('gulp-if');
 const cssnano = require('gulp-cssnano');
+const babel = require('gulp-babel');
 
-gulp.task('build', function() {
+//Development Tasks
+
+gulp.task('build:dev', function() {
 	return obt.build(gulp, {
 		js: './src/client/js/main.js',
 		sass: './src/client/scss/main.scss',
@@ -49,7 +52,29 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', function (callback) {
-  runSequence('stopBabelrc', 'build', 'minify', 'startBabelrc',
+  runSequence('stopBabelrc', 'build:dev', 'minify', 'startBabelrc',
+    callback
+  );
+});
+
+//Production Tasks
+
+//Clean out dist folder for use before building
+gulp.task('clean:dist', function() {
+  return del.sync('dist');
+});
+
+gulp.task('build:prod', function(){
+  return gulp.src(['src/**/*', '!src/client'])
+		//Transpile js
+		.pipe(gulpIf('*.js', babel({
+            presets: ['es2015']
+        })))
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('create:dist', function (callback) {
+  runSequence('clean:dist', 'build:prod',
     callback
   );
 });
