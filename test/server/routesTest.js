@@ -5,7 +5,6 @@ import chaiHttp from 'chai-http';
 import server from '../../src/app.js';
 import fetchMock from 'fetch-mock';
 
-
 chai.use(chaiHttp);
 
 describe('Routes', () => {

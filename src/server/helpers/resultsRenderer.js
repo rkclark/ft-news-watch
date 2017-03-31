@@ -105,5 +105,4 @@ r.render = function() {
     });
 };
 
-
 module.exports = ResultsRenderer;

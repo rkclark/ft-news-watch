@@ -8,9 +8,7 @@ apicache.options({
   debug: true
 });
 
-
 const cache = apicache.middleware;
-
 
 const generateSearchQuery = function(searchParam) {
 	return (

@@ -38,5 +38,4 @@ hbs.registerHelper('search', (searchTerm) => {
   return '?';
 });
 
-
 module.exports = hbs;
