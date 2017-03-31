@@ -3,36 +3,30 @@ import { expect } from 'chai';
 import chai from 'chai';
 import chaiHttp from 'chai-http';
 import server from '../../src/app.js';
+import fetchMock from 'fetch-mock';
+
 
 chai.use(chaiHttp);
 
-xdescribe('Routes', () => {
+describe('Routes', () => {
 
-  describe('GET /', () => {
+    const json = {
+      results: [
+        { indexCount: 0 }
+      ],
+      query: {
+        queryString: 'starcraft'
+      }
+    };
 
-      it('Returns an html document', (done) => {
-        chai.request(server)
-            .get('/')
-            .end((err, res) => {
-                expect(res.statusCode).to.equal(200);
-                expect(res.type).to.equal('text/html');
-              done();
-            });
-      });
-  });
+    beforeEach(function() {
+      fetchMock.post('*', json);
+    });
 
-  describe('GET /search', () => {
 
-      it('Returns an html document', (done) => {
-        chai.request(server)
-            .get('/search')
-            .end((err, res) => {
-                expect(res.statusCode).to.equal(200);
-                expect(res.type).to.equal('text/html');
-              done();
-            });
-      });
-  });
+    afterEach(function() {
+      fetchMock.restore();
+    });
 
   describe('GET /headlines', () => {
 
