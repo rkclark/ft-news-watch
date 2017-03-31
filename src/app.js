@@ -40,11 +40,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 if (process.env.NODE_ENV === 'production') { // eslint-disable-line
-  app.use(express.static(path.join(__dirname, 'public'))); // eslint-disable-line
+  app.use(express.static(path.join(__dirname, 'public'), { maxAge: 86400000 })); // eslint-disable-line
 } else {
-  app.use(express.static(path.join(__dirname, 'public'), { maxAge: oneDay })); // eslint-disable-line
+  app.use(express.static(path.join(__dirname, 'public'))); // eslint-disable-line
 }
-
 
 app.use(headlinesAPI);
 app.use(index);
